@@ -1,0 +1,18 @@
+div{
+  width: 100px;
+  height: 100px;
+  border:6px solid transparent;
+  
+  border-radius: 60px;
+  margin: 100px auto;
+  animation: box 1s infinite
+}
+@keyframes box{
+  100%{
+    transform: 360deg;
+    border-top: black;
+  }
+}
+*{
+  background-color: indianred;
+}
